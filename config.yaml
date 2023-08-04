@@ -1,0 +1,8 @@
+train: D:\code\yolo\train
+val: D:\code\yolo\val
+
+nc: 2
+
+names:
+  0: slider
+  1: target
