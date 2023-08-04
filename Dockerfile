@@ -1,5 +1,6 @@
-FROM python:3.9-alpine
+FROM python:3.9
 WORKDIR /app
 COPY . /app
-RUN pip install -r requirements.txt
+RUN pip install Flask
+RUN pip install ultralytics
 CMD ["python", "app.py"]
